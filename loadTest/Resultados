@@ -1,0 +1,36 @@
+Nginx default config
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   150.28us  309.86us  24.72ms   99.59%
+    Req/Sec    26.84k     2.93k   48.82k    67.28%
+  3207617 requests in 1.00m, 492.35MB read
+Requests/sec:  53371.87
+Transfer/sec:      8.19MB
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   493.94us    6.03ms 177.05ms   99.56%
+    Req/Sec    26.41k     3.38k   33.88k    77.38%
+  3149504 requests in 1.00m, 483.43MB read
+Requests/sec:  52490.94
+Transfer/sec:      8.06MB
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   156.59us  453.61us  31.12ms   99.67%
+    Req/Sec    26.71k     2.89k   34.75k    65.83%
+  3188660 requests in 1.00m, 489.44MB read
+Requests/sec:  53141.12
+Transfer/sec:      8.16MB
+
+
+-------------------------------------
+
+Nginx tunado
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   393.14us    1.19ms  18.40ms   92.50%
+    Req/Sec    42.31k     5.47k   58.90k    65.78%
+  5058155 requests in 1.00m, 742.87MB read
+Requests/sec:  84177.12
+Transfer/sec:     12.36MB
+
+
